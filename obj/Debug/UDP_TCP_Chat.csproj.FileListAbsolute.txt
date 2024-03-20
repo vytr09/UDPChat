@@ -1,0 +1,12 @@
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\bin\Debug\UDP_TCP_Chat.exe.config
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\bin\Debug\UDP_TCP_Chat.exe
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\bin\Debug\UDP_TCP_Chat.pdb
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.csproj.AssemblyReference.cache
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.csproj.SuggestedBindingRedirects.cache
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.Properties.Resources.resources
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.UDPClient.resources
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.UDPServer.resources
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.csproj.GenerateResource.cache
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.csproj.CoreCompileInputs.cache
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.exe
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.pdb
