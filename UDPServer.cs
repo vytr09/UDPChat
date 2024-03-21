@@ -93,5 +93,11 @@ namespace UDP_TCP_Chat
         {
 
         }
+
+        private void tcpBtn_Click(object sender, EventArgs e)
+        {
+            TCPServer tcp = new TCPServer();
+            tcp.Show();
+        }
     }
 }

@@ -40,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.tcpBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // IPBox
@@ -172,12 +173,28 @@
             this.label5.Text = "History";
             this.label5.Click += new System.EventHandler(this.label1_Click);
             // 
+            // tcpBtn
+            // 
+            this.tcpBtn.BackColor = System.Drawing.Color.CadetBlue;
+            this.tcpBtn.FlatAppearance.BorderSize = 0;
+            this.tcpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tcpBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tcpBtn.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.tcpBtn.Location = new System.Drawing.Point(342, 54);
+            this.tcpBtn.Name = "tcpBtn";
+            this.tcpBtn.Size = new System.Drawing.Size(88, 37);
+            this.tcpBtn.TabIndex = 11;
+            this.tcpBtn.Text = "To TCP";
+            this.tcpBtn.UseVisualStyleBackColor = false;
+            this.tcpBtn.Click += new System.EventHandler(this.tcpBtn_Click);
+            // 
             // UDPClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(659, 450);
+            this.Controls.Add(this.tcpBtn);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -213,5 +230,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button tcpBtn;
     }
 }

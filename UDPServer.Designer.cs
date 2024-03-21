@@ -35,6 +35,7 @@
             this.portBox = new System.Windows.Forms.TextBox();
             this.closeBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.tcpBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // historyBox
@@ -57,7 +58,7 @@
             this.newClient.ForeColor = System.Drawing.Color.White;
             this.newClient.Location = new System.Drawing.Point(479, 22);
             this.newClient.Name = "newClient";
-            this.newClient.Size = new System.Drawing.Size(107, 33);
+            this.newClient.Size = new System.Drawing.Size(125, 33);
             this.newClient.TabIndex = 1;
             this.newClient.Text = "New Client";
             this.newClient.UseVisualStyleBackColor = false;
@@ -70,9 +71,9 @@
             this.start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.start.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.start.ForeColor = System.Drawing.Color.White;
-            this.start.Location = new System.Drawing.Point(366, 22);
+            this.start.Location = new System.Drawing.Point(348, 22);
             this.start.Name = "start";
-            this.start.Size = new System.Drawing.Size(107, 33);
+            this.start.Size = new System.Drawing.Size(125, 33);
             this.start.TabIndex = 1;
             this.start.Text = "Start";
             this.start.UseVisualStyleBackColor = false;
@@ -107,7 +108,7 @@
             this.closeBtn.ForeColor = System.Drawing.Color.White;
             this.closeBtn.Location = new System.Drawing.Point(479, 61);
             this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(107, 34);
+            this.closeBtn.Size = new System.Drawing.Size(125, 34);
             this.closeBtn.TabIndex = 4;
             this.closeBtn.Text = "Close";
             this.closeBtn.UseVisualStyleBackColor = false;
@@ -123,12 +124,28 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "History";
             // 
+            // tcpBtn
+            // 
+            this.tcpBtn.BackColor = System.Drawing.Color.CadetBlue;
+            this.tcpBtn.FlatAppearance.BorderSize = 0;
+            this.tcpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tcpBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tcpBtn.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.tcpBtn.Location = new System.Drawing.Point(348, 61);
+            this.tcpBtn.Name = "tcpBtn";
+            this.tcpBtn.Size = new System.Drawing.Size(125, 34);
+            this.tcpBtn.TabIndex = 12;
+            this.tcpBtn.Text = "To TCP";
+            this.tcpBtn.UseVisualStyleBackColor = false;
+            this.tcpBtn.Click += new System.EventHandler(this.tcpBtn_Click);
+            // 
             // UDPServer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(670, 450);
+            this.Controls.Add(this.tcpBtn);
             this.Controls.Add(this.closeBtn);
             this.Controls.Add(this.portBox);
             this.Controls.Add(this.label2);
@@ -154,6 +171,7 @@
         private System.Windows.Forms.TextBox portBox;
         private System.Windows.Forms.Button closeBtn;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button tcpBtn;
     }
 }
 

@@ -10,3 +10,7 @@ D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.csproj.GenerateRes
 D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.csproj.CoreCompileInputs.cache
 D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.exe
 D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.pdb
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\bin\Debug\SimpleTCP.dll
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.TCPClient.resources
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.TCPServer.resources
+D:\UIT\Nam_2\LTMCB\BT\BT2\UDP_TCP_Chat\obj\Debug\UDP_TCP_Chat.csproj.CopyComplete
