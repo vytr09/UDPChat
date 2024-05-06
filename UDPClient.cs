@@ -68,7 +68,7 @@ namespace UDP_TCP_Chat
         {
             MethodInvoker invoker = new MethodInvoker(delegate
             {
-                historyBox.AppendText("Server 22521709 sent: " + msg + Environment.NewLine);
+                historyBox.AppendText("Message sent: " + msg + Environment.NewLine);
             });
             this.BeginInvoke(invoker);
         }
